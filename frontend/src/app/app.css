@@ -1,0 +1,46 @@
+/* Reset page to white background, black text */
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  font-family: Arial, sans‑serif;
+}
+
+/* Center the form and give it a little padding */
+.simple-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Labels, inputs, and button full width */
+.simple-form-container label,
+.simple-form-container input,
+.simple-form-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+/* Basic input styling */
+.simple-form-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Basic button styling */
+.simple-form-container button {
+  padding: 10px;
+  border: 1px solid #000;
+  background: #eee;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Hover state */
+.simple-form-container button:hover {
+  background: #ddd;
+}
