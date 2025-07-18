@@ -2,6 +2,8 @@
 
 This project is a full-stack web application that allows users to enter their name and email, which is then stored in a MySQL database and also triggers a confirmation email to be sent to them. The frontend is built with Angular, the backend is built using Node.js with Express and MySQL. Nodemailer is used to send emails, and Mailtrap is used as a development SMTP sandbox for email testing.
 
+# Demo Video
+https://youtu.be/Mqaslo3ohA0
 ---
 
 ## Features
